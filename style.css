@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box{
+	height: 100vh;
+	width: 100%;
+}
+.part{
+	height: 20vh;
+	width: 10%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+}
+
+/* FLEX BOX */
+.b1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #00ffee;
+}
+
+/* POSITION RELATIVE-ABSOLUTE */
+
+.b2{
+	position: relative;	
+	background: #ffaaaa;
+}
+.b2 .part{
+	position: absolute;
+}
+.b2 .p1{
+	left: 0;
+	top: 20vh;
+}
+.b2 .p2{
+	left:0;
+	top: 50vh;
+}
+.b2 .p3{
+	left: 50%;
+	top: 20vh;
+}
+
+/* DISPLAY GRID */
+
+.b3{
+	display: grid;
+	background: #ffff11;
+}
+
+/* FLEX JUSTIFY CONTENT */
+
+.b4{
+	display: flex;
+	justify-content: space-between;
+	background: #ff11ee;
+}
+
+/* FLEX ALIGN-ITEMS */
+
+.b5{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column-reverse;
+	background: #11aaee;
+}
